@@ -1,0 +1,90 @@
+{
+    "clients": {
+        "Gwsh": {
+            "version": "1.5.5",
+            "platforms": {
+                "linux": {
+                    "x64": {
+                        "download": {
+                            "url": "https://gwshstore.blob.core.windows.net/builds/gwsh-linux-amd64-1.5.5-ff07d548.tar.gz",
+                            "type": "tar",
+                            "sha256": "4f36d6df25c37eb33829407d8bf2cea209cc412b3443319e2430db18581c7c01",
+                            "bin": "gwsh-linux-amd64-1.5.5-ff07d548/gwsh"
+                        },
+                        "bin": "gwsh",
+                        "commands": {
+                            "sanity": {
+                                "args": ["version"],
+                                "output": [ "Gwsh", "1.5.5" ]
+                            }
+                        }
+                    },
+                    "ia32": {
+                        "download": {
+                            "url": "https://gwshstore.blob.core.windows.net/builds/gwsh-linux-386-1.5.5-ff07d548.tar.gz",
+                            "type": "tar",
+                            "sha256": "6767651e4e5b34acaa6c53079d66a9047acb74e80fd25f570bf63da87d0ce863",
+                            "bin": "gwsh-linux-386-1.5.5-ff07d548/gwsh"
+                        },
+                        "bin": "gwsh",
+                        "commands": {
+                            "sanity": {
+                                "args": ["version"],
+                                "output": [ "Gwsh", "1.5.5" ]
+                            }
+                        }
+                    }
+                },
+                "mac": {
+                    "x64": {
+                        "download": {
+                            "url": "https://gwshstore.blob.core.windows.net/builds/gwsh-darwin-amd64-1.5.5-ff07d548.tar.gz",
+                            "type": "tar",
+                            "sha256": "a5b3ae5b7e9d91a0ca42ca24b079631578cdccce036cc5b1f0035cd0d9706b53",
+                            "bin": "gwsh-darwin-amd64-1.5.5-ff07d548/gwsh"
+                        },
+                        "bin": "gwsh",
+                        "commands": {
+                            "sanity": {
+                                "args": ["version"],
+                                "output": [ "Gwsh", "1.5.5" ]
+                            }
+                        }
+                    }
+                },
+                "win": {
+                    "x64": {
+                        "download": {
+                            "url": "https://gwshstore.blob.core.windows.net/mist/gwsh-windows-amd64-1.5.5-ff07d548-mist-fix.zip",
+                            "type": "zip",
+                            "sha256": "6b9e65ccac8a07535fbfd003662cdd4f69289f93947689c715d10c6486e703d7",
+                            "bin": "gwsh-windows-amd64-1.5.5-ff07d548\\gwsh.exe"
+                        },
+                        "bin": "gwsh.exe",
+                        "commands": {
+                            "sanity": {
+                                "args": ["version"],
+                                "output": [ "Gwsh", "1.5.5" ]
+                            }
+                        }
+                    },
+                    "ia32": {
+                        "download": {
+                            "url": "https://gwshstore.blob.core.windows.net/mist/gwsh-windows-386-1.5.5-ff07d548-mist-fix.zip",
+                            "type": "zip",
+                            "sha256": "74ef8372ae7748c1016a8fcfe2d49574b52a2780913081cf0184fb197f26f01c",
+                            "bin": "gwsh-windows-386-1.5.5-ff07d548\\gwsh.exe"
+                        },
+                        "bin": "gwsh.exe",
+                        "commands": {
+                            "sanity": {
+                                "args": ["version"],
+                                "output": [ "Gwsh", "1.5.5" ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
